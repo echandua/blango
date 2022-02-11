@@ -1,0 +1,221 @@
+[
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2022-01-27T12:17:19.028Z",
+      "modified_at": "2022-01-27T12:17:19.041Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2022-01-27T12:17:19.028Z",
+      "modified_at": "2022-01-27T12:17:19.041Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2022-01-27T12:17:19.028Z",
+      "modified_at": "2022-01-27T12:17:19.041Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+      "creator": 1,
+      "content": "Very Good",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2022-02-05T16:35:16.320Z",
+      "modified_at": "2022-02-05T16:35:16.321Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "django"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "example"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-01-27T07:19:31.109Z",
+      "modified_at": "2022-01-27T16:11:00.638Z",
+      "published_at": "2022-01-27T16:10:45Z",
+      "title": "An Example Post",
+      "slug": "an-example-post",
+      "summary": "A short example post.",
+      "content": "<h3>An example post!</h3>\r\n<p>This is an example post, that uses HTML to render itself.</p>",
+      "tags": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 2,
+      "created_at": "2022-01-27T16:13:00.575Z",
+      "modified_at": "2022-01-27T16:41:15.511Z",
+      "published_at": "2022-01-27T16:11:38Z",
+      "title": "Advanced Django: A Review",
+      "slug": "advanced-django-a-review",
+      "summary": "This great course is a must-do for anyone looking to take the next Django step.",
+      "content": "test",
+      "tags": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "author": 2,
+      "created_at": "2022-01-28T16:33:24.138Z",
+      "modified_at": "2022-01-28T16:33:24.138Z",
+      "published_at": "2022-01-28T16:32:23Z",
+      "title": "Django vs Python",
+      "slug": "django-vs-python",
+      "summary": "Django",
+      "content": "<h3>Django</h3>",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-01-28T16:34:10.150Z",
+      "modified_at": "2022-01-28T16:34:10.150Z",
+      "published_at": "2022-01-28T16:33:40Z",
+      "title": "Leo: A Personal Profile",
+      "slug": "leo-a-personal-profile",
+      "summary": "Leo Profile",
+      "content": "<h3>Leo Profile</h3>",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-01-28T16:34:49.011Z",
+      "modified_at": "2022-01-28T16:34:49.011Z",
+      "published_at": "2022-01-28T16:34:16Z",
+      "title": "Breaking News",
+      "slug": "breaking-news",
+      "summary": "Breaking News",
+      "content": "<h3>Breaking News</h3>",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-01-28T16:35:27.441Z",
+      "modified_at": "2022-01-28T16:35:27.441Z",
+      "published_at": "2022-01-28T16:34:53Z",
+      "title": "A Real Post",
+      "slug": "a-real-post",
+      "summary": "Realtime",
+      "content": "<h3>Realtime</h3>",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-01-28T16:36:05.898Z",
+      "modified_at": "2022-01-28T16:36:05.898Z",
+      "published_at": "2022-01-28T16:35:33Z",
+      "title": "Celery",
+      "slug": "celery",
+      "summary": "Celera and Redis",
+      "content": "<h3>Task</h3>",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 1,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$akZjOHAzb01WSTA2cHNPSFprSjl3Zg$xUIHWy1PBiQ7KuRGdHNpRw",
+      "last_login": "2022-02-10T12:55:20.539Z",
+      "is_superuser": true,
+      "username": "echandua",
+      "first_name": "",
+      "last_name": "",
+      "email": "ee.ekkapan@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-01-27T06:44:44.727Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$64W2Wh69StY3OJCxtnkBoW$loe0inYESwXXJdCdKgBAJiQSEQug6Jpetd0KOP430g8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "ekkapan",
+      "first_name": "Ekkapan",
+      "last_name": "Chanduaykit",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-27T16:40:36Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
