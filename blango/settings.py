@@ -65,13 +65,13 @@ class Dev(Configuration):
     # Application definition
 
     INSTALLED_APPS = [
+        'blango_auth',
         'django.contrib.admin',
         'django.contrib.auth',
         'django.contrib.contenttypes',
         'django.contrib.sessions',
         'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'blango_auth',
+        'django.contrib.staticfiles',        
         'blog',
         'crispy_forms',
         'crispy_bootstrap5',
@@ -155,6 +155,9 @@ class Dev(Configuration):
       'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
       'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
     ]
+
+    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+    ACCOUNT_ACTIVATION_DAYS = 7
 
     # Internationalization
     # https://docs.djangoproject.com/en/3.2/topics/i18n/
