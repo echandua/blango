@@ -85,7 +85,8 @@ class Dev(Configuration):
         'rest_framework',
         'rest_framework.authtoken',
         'drf_yasg',
-        'django_filters'
+        'django_filters',
+        'versatileimagefield'
     ]
 
     REST_FRAMEWORK = {
@@ -241,6 +242,9 @@ class Dev(Configuration):
     # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
     DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+    MEDIA_ROOT = BASE_DIR / "media"
+    MEDIA_URL = "/media/"
 
 class Prod(Dev):
   DEBUG = False
